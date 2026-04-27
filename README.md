@@ -14,5 +14,5 @@ Generate cert:
 openssl req -x509 -newkey rsa:2048 -keyout key.pem -out cert.pem -days 365 -nodes
 
 ## Run
-python src/server.py
-python src/client.py
+server.py
+client.py
